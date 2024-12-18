@@ -1,0 +1,294 @@
+
+.form-container {
+    font-family:5px;
+    max-width: 420px;
+    margin: 0 auto;
+    background: linear-gradient(45deg, #8b7d7f, #000000);
+
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid #dcdcdc;
+}
+
+.form-header {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 25px;
+}
+
+.form-input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 100%;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.reset-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.reset-button:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+.calculator-container {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 30px;
+    background: linear-gradient(45deg, #8b7d7f, #000000);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+
+
+
+
+
+
+.calculator-header {
+color: white;
+}
+
+.calculator-title {
+    font-size: 28px;
+    color: #fdfdfd;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.calculator-subtitle {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.calculator-inputs {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.calculator-input {
+    width: 45%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+}
+
+
+.calculator-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+.calculator-results{
+color: white;
+}
+
+
+.counter-container {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 30px;
+    background: linear-gradient(45deg, #8b7d7f, #000000);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.counter-title {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.counter-display {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.counter-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.counter-button {
+    flex: 1;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.counter-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.reset-button {
+    background-color: #dc3545;
+}
+
+.reset-button:hover {
+    background-color: #a71d2a;
+    transform: scale(1.05);
+}
+
+.shopping-cart-container {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 30px;
+    background: linear-gradient(45deg, #8b7d7f, #000000);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.shopping-cart-title {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    padding: 12px;
+    margin: 5px;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.input-field:focus {
+    border-color: #ffffff;
+}
+
+.add-item-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    background-color: #28a745;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-item-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.cart-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cart-item {
+    padding: 12px;
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove-item-button {
+    padding: 8px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.remove-item-button:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+.total-price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+  
